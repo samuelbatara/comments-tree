@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/development
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
+
+server:
+  port: 9000
